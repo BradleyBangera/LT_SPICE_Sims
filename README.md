@@ -14,7 +14,8 @@ Gain(Av)=6
 
 Therefore From Av=-Rf/R1 we obtain
 		R1=1.66K
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+
+
 
 Non Inverting Amplifier:
         Rf=10K                  (given)
