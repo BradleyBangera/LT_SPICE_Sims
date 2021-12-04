@@ -53,13 +53,17 @@ Frequency Range: 4KHz-40KHz
 Here fa=40KHz
   		  fa=1/2𝝅RfC1
 Assume Rf=10K
+
 		C1=1/2𝝅 Rf fa
 		C1= 397.88 pf
-Here fb=400KHz (10*fa)
-   		 fb=1/2𝝅R1C1 
-We need to obtain the value of R1
-R1=1KΩ
 
-           Cf=R1*C1/Rf
-			Cf=0.4pF
+Here fb=400KHz (10*fa) 
+
+   		 fb=1/2𝝅R1C1 
+		 
+We need to obtain the value of R1
+           R1=1KΩ 
+	   
+	   Cf=R1*C1/Rf
+	   Cf=0.4pF
 //////////////////////////////////////////////////////////////////////////////////////////////
