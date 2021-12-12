@@ -79,3 +79,34 @@ We need to obtain the value of R1
 	   Cf=R1*C1/Rf
 	   Cf=0.4pF
 //////////////////////////////////////////////////////////////////////////////////////////////
+Week 4 Assignment:
+Design Requirements:
+Band Reject Range:2KHz-20KHz
+Pass Band Gain:1.586
+Roll-off Rate:40dB/Decade
+
+
+Low Pass Design:
+Flp=2KHz    
+Assume C=0.01uF
+R2=R3=R=1/2 𝝿 Flp C
+R=7957.74Ω
+Af=1+Rf/R1=1.586
+	Rf/R1=0.586
+Assume Rf=10K
+	r1=17.06K
+	
+	
+High Pass Filter Design
+Assume C=0.01uF
+	R4=R5=R=1/2 𝝿 FHp C
+ 		R1=795.77Ω
+Af=1+Rf/R1=1.586
+	Rf/R1=0.586
+Assume Rf=10K
+	R1=17.06K
+	
+Summing circuit:
+gain=1
+Rf=10K       R1=10K             Rg=10K
+///////////////////////////////////////////////////////////////////////////////////////////////////
