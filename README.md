@@ -110,3 +110,26 @@ Summing circuit:
 gain=1
 Rf=10K       R1=10K             Rg=10K
 ////////////////////////////////////////////////////////
+
+WEEK 5 ASSIGNMENT:
+Design  and test a square wave and triangle wave generator of frequency 10KHz
+
+Design specification:  square wave and triangle wave, f=10KHz
+ 
+Assumptions: C=0.01uF UTP=+3V LTP=-3V    +Vsat=+11     -Vsat=-11
+
+
+
+Schmitt trigger Design;
+
+Vutp=(R2/R1)*+Vsat
+3/11=(R2/R1)
+Therefore R1=11K   R2=3K
+
+
+Integrator Design:
+f=(R1 / (  4 * R2 * R3 * C) )
+R3=9.16K
+
+
+
